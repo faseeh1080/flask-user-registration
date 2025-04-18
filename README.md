@@ -14,6 +14,7 @@ Linux: `python3 -m venv .venv`
 This creates a virtual enviroment named `.venv`
 2. VS Code: *Ctrl + Shift + P*, `Python: Select Interpreter`
 3. `pip install Flask`
+4. `pip install mysql-connector-python`
 
 ## Run the App
 
