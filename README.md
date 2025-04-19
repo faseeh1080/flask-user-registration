@@ -15,6 +15,7 @@ This creates a virtual enviroment named `.venv`
 2. VS Code: *Ctrl + Shift + P*, `Python: Select Interpreter`
 3. `pip install Flask`
 4. `pip install mysql-connector-python`
+5. `flask --app flaskr init-db`
 
 ## Run the App
 
