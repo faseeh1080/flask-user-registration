@@ -35,8 +35,9 @@ def init_db():
         schema_sql = f.read().decode("utf-8")
 
     for statement in schema_sql.split(";"):
-        if statement.strip():
-            cursor.execute(statement.strip() + ";")
+        statement = statement.strip()
+        if statement:
+            cursor.execute(statement)
 
     cursor.close()
     cnx.close()
