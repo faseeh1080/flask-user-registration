@@ -10,9 +10,9 @@ Description
 ## Flask Setup
 
 1. Windows: `py -3 -m venv .venv`  
-Linux: `python3 -m venv .venv`  
-This creates a virtual enviroment named `.venv`
-2. VS Code: *Ctrl + Shift + P*, `Python: Select Interpreter`
+   Linux: `python3 -m venv .venv`  
+   This creates a virtual enviroment named `.venv`
+2. VS Code: _Ctrl + Shift + P_, `Python: Select Interpreter`
 3. `pip install Flask`
 4. `pip install mysql-connector-python`
 5. `flask --app flaskr init-db`
@@ -25,4 +25,5 @@ This creates a virtual enviroment named `.venv`
 ## Links
 
 - [Flask Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/)
+- [Flask Tutorial Repository](https://github.com/pallets/flask/tree/main/examples/tutorial)
 - [MySQL Connector for Python Documentation](https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html)
